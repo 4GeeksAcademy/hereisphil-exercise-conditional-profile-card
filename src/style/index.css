@@ -1,6 +1,9 @@
 .filters {
-  background: white;
-  width: 100%;
+  background: #2cdfd3;
+  padding: 8px 14px;
+  width: fit-content;
+  border-radius: 8px;
+  margin: 0 auto;
 }
 .filters li {
   display: inline-block;
@@ -9,8 +12,11 @@
 }
 .filters li label {
   display: block;
+  text-align: center;
   font-size: 12px;
   font-weight: 900;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .filters li input {
   width: 100%;
